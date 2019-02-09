@@ -4,84 +4,91 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
     <nav class="main-navigation">
       <ul class="site-navigation">
-        <li><a href="/info.html">Информация</a></li>
-        <li><a href="/media.html">Фото и видео</a></li>
-        <li><a href="/mapstate.html">Карта штата</a></li>
-        <li><a href="/hotels.html">Гостиницы</a></li>
+        <li><a href="info.html"><b>Информация</b></a></li>
+        <li><a href="media.html"><b>Фото и видео</b></a></li>
+        <li><a href="mapstate.html"><b>Карта штата</b></a></li>
+        <li><a href="hotels.html"><b>Гостиницы</b></a></li>
       </ul>
-      <a class="main-header-logo" href="/index.html">
+      <a class="main-header-logo" href="index.html">
         <img src="img/logo.png" width="140" height="72" alt="Логотип городка Седона">
       </a>
     </nav>
   </header>
+  <div class="welcome">
+  </div>
   <main class="page-content">
     <h1 class="visualy-hidden">Городок Седона</h1>
-    <div class="welcome">
-    </div>
     <p><b>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</b></p>
-    <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
+    <p class="light-black-text">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
     <ul class="features">
       <li>
-        <div>
-          <b>Настоящий городок</b>
-          <span> -№1 -</span>
-          <p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ</p>
-        </div>
-        <img src="img/sedona-city.png" width="800" height="401" alt="Фото городка Седона">
+        <section class="feature-first">
+          <div class="feature-first-about">
+            <b>Настоящий городок</b><br>
+            <span> -№1 -</span>
+            <p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ</p>
+          </div>
+          <img src="img/sedona-city.png" width="800" height="401" alt="Фото городка Седона">
+        </section>
       </li>
       <li>
         <ul class="features-list">
           <li class="feature-item">
-            <img src="img/icon-house.png" alt="Жильё">
+            <img src="img/icon-house.png" width="75" height="72" alt="Жильё">
             <b>ЖИЛЬЁ</b>
-            <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ ОТЕЛЕ, ВСЁ КАК В КИНО!</p>
+            <p class="light-black-text">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЁ КАК В КИНО!</p>
           </li>
           <li class="feature-item">
-            <img src="img/icon-food.png" alt="Еда">
+            <img src="img/icon-food.png" width="74" height="70" alt="Еда">
             <b>ЕДА</b>
-            <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+            <p class="light-black-text">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
           </li>
           <li class="feature-item">
-            <img src="img/icon-souvenirs.png" alt="Сувениры">
+            <img src="img/icon-souvenirs.png" width="64" height="76" alt="Сувениры">
             <b>СУВЕНИРЫ</b>
-            <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+            <p class="light-black-text">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
           </li>
         </ul>
       </li>
       <li>
-        <div>
-          <b>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</b>
-          <span>- №2 -</span>
-          <p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
-        </div>
-        <img src="img/devils-bridge.png" width="800" height="400" alt="Мост дьявола">
+        <section class="feature-second">
+          <img src="img/devils-bridge.png" width="800" height="400" alt="Мост дьявола">
+          <div class="feature-second-about">
+            <b>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</b><br>
+            <span>- №2 -</span>
+            <p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+          </div>
+        </section>
       </li>
       <li>
         <ul class="features-list">
           <li class="feature-item">
-            <b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b>
+            <b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b><br>
             <span>- №3 -</span>
-            <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ <br>
+            <p class="light-black-text">ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ <br>
               НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО
             </p>
           </li>
           <li class="feature-item">
-            <h3>КРАСИВАЯ ДОРОГА</h3>
-            <p>- №4 -</p>
-            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br>
+            <b>КРАСИВАЯ ДОРОГА</b><br>
+            <span>- №4 -</span>
+            <p class="light-black-text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br>
               НЕ СКУЧНО!
             </p>
           </li>
           <li class="feature-item">
-            <h3>МАЛО ТУРИСТОВ</h3>
-            <p>- №5 -</p>
-            <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br>
+            <b>МАЛО ТУРИСТОВ</b><br>
+            <span>- №5 -</span>
+            <p class="light-black-text">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br>
               И ТОЛПИТСЯ ТАМ
             </p>
           </li>
@@ -92,52 +99,59 @@
       <p>
         <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
       </p>
-      <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>
+      <p class="light-black-text">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>
         И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ
       </p>
-      <a href="form.html">Поиск гостиницы в Седоне </a>
+      <a href="form.html" class="button-call-form">Поиск гостиницы в Седоне </a>
     </section>
   </main>
   <footer class="main-footer">
-    <div class="map"><img src="img/map.png">
+    <div class="map"><img src="img/map.png" alt="Карта расположения">
       <div class=js-map></div>
     </div>
-    <div class="foot-content">
+    <div class="footer-content">
       <p>
         <b>#VISITSEDONA</b>
       </p>
       <div class="footer-socials">
-        <ul>
-          <li><a class="social-button" href="#">Twitter</a></li>
-          <li><a class="social-button" href="#">Facebook</a></li>
-          <li><a class="social-button" href="#">Youtube</a></li>
+        <ul class="social-buttons">
+          <li><a class="social-item" href="#">Twitter</a></li>
+          <li><a class="social-item" href="#">Facebook</a></li>
+          <li><a class="social-item" href="#">Youtube</a></li>
         </ul>
       </div>
       <p class="footer-copyright">
-        WEBSITE <a href="https://htmlacademy.ru"> html <br>
-          academy</a>
+        WEBSITE BY<a href="https://htmlacademy.ru"><img src="img/logo-academy.jpg" alt="Переход на HTML Академию" /></a>
       </p>
     </div>
     <div class="search-hotel">
         <form action="https://echo.htmlacademy.ru" method="post">
-          <label>
-            ДАТА ЗАЕЗДА:
-            <input type="text" name="arrival" placeholder="24 апреля 2019 г.">
-          </label>
-          <label>
-            ДАТА ВЫБЫТИЯ:
-            <input type="text" name="retirement" placeholder="4 июля 2019 г.">
-          </label>
-          <label>
-            ВЗРОСЛЫЕ:
-            <input type="number" name="adults" placeholder="2">
-          </label>
-          <label>
-            ДЕТИ:
-            <input type="number" name="children" placeholder="2">
-          </label>
-          <button type="submit" value="НАЙТИ"><img src="img/Button-search.png">
-          <img src="img/Search-text.png">
+          <p class="search-item">
+            <label>
+              <b>ДАТА ЗАЕЗДА:</b>
+              <input type="text" class="date-arrival" name="arrival" placeholder="24 апреля 2019 г.">
+            </label>
+          </p>
+          <p class="search-item">
+            <label>
+                <b>ДАТА ВЫБЫТИЯ:</b>
+              <input type="text" class="date-retirement" name="retirement" placeholder="4 июля 2019 г.">
+            </label>
+          </p>
+          <p class="search-item">
+            <label>
+                <b>ВЗРОСЛЫЕ:</b>
+              <input type="number" name="adults" placeholder="2">
+            </label>
+          </p>
+            <p class="search-item">
+              <label>
+                  <b>ДЕТИ:</b>
+                <input type="number" name="children" placeholder="2">
+            </label>
+          </p>
+          <button class="search-btn" type="submit" value="НАЙТИ">
+            Найти
           </button>
         </form>
       </div>
