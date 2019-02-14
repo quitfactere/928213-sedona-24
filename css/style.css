@@ -47,7 +47,6 @@ a {
 }
 
 .site-nav-content {
-  width: 1200px;
   margin: 0 auto;
 }
 
@@ -67,8 +66,7 @@ a {
   display: flex;
   width: 500px;
   background-color: #ffffff;
-   list-style: none;
-
+  list-style: none;
 }
 
 .site-navigation-left li,
@@ -100,14 +98,18 @@ a {
   background: #6292b8 url("../img/background-photo.png") no-repeat;
 }
 
-.welcome {
-  margin: 63px auto 0;
+.welcome-background::before {
+  content: "";
+  position: absolute;
+  top: 76px;
+  left: 370px;
   width: 459px;
   height: 353px;
   background: url("../img/welcome.png") no-repeat;
 }
 
-.polygon {
+.welcome-background::after {
+  content: "";
   position: absolute;
   bottom: -1px;
   left: -1px;
@@ -124,7 +126,7 @@ a {
   border: 1px solid black;
 }
 
-.Sedona-intro {
+.sedona-intro {
   text-align: center;
   border: 1px solid black;
   margin-bottom: 32px;
