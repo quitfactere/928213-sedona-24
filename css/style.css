@@ -19,7 +19,6 @@ a {
 .main-header {
   width: 100%;
   min-height: 58px;
-  margin-bottom: 62px;
 }
 
 .main-navigation {
@@ -94,7 +93,7 @@ a {
   position: relative;
   margin: auto;
   width: 1200px;
-  height: 509px;
+  height: 507px;
   background: #6292b8 url("../img/background-photo.png") no-repeat;
 }
 
@@ -129,6 +128,7 @@ a {
 .sedona-intro {
   text-align: center;
   border: 1px solid black;
+  margin-top: 62px;
   margin-bottom: 32px;
 }
 
@@ -201,12 +201,33 @@ a {
 }
 
 .base-feature-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 61px;
   text-align: center;
   border: 1px solid black;
+}
+
+.feature-item-first {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 61px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.feature-item-first::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 162px;
+  width: 75px;
+  height: 72px;
+  background: #ffffff url("../img/icon-house.png") no-repeat;
 }
 
 .base-feature-item b {
