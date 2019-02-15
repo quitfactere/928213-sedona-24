@@ -122,7 +122,6 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: #333333;
-  border: 1px solid black;
 }
 
 .sedona-intro {
@@ -200,37 +199,37 @@ a {
   list-style: none;
 }
 
-.base-feature-item {
+.feature-item:nth-child(1) {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 61px;
+  padding-top: 160px; 
   text-align: center;
-  border: 1px solid black;
+  background: url("../img/icon-house.png") no-repeat 163px 60px;
 }
 
-.feature-item-first {
+.feature-item:nth-child(2) {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 61px;
+  padding-top: 160px; 
   text-align: center;
-  border: 1px solid black;
+  background: url("../img/icon-food.png") no-repeat 173px 61px;
 }
 
-.feature-item-first::before {
-  content: "";
-  position: absolute;
-  top: 60px;
-  left: 162px;
-  width: 75px;
-  height: 72px;
-  background: #ffffff url("../img/icon-house.png") no-repeat;
+.feature-item:nth-child(3) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 160px; 
+  text-align: center;
+  background: url("../img/icon-souvenirs.png") no-repeat 155px 60px;
 }
 
-.base-feature-item b {
+.feature-item b {
   font-size: 21px;
   line-height: 21px;
 }
