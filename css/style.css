@@ -8,7 +8,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 400;
+  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;
@@ -55,6 +55,53 @@ a {
   background-color: #ffffff;
 }
 
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation li {
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.site-navigation li:nth-child(1) {
+  padding-left: 71px;
+  text-align: left;
+}
+
+
+.site-navigation li:nth-child(2) {
+  padding-left: 13px;
+  text-align: left;
+}
+
+.site-navigation li:nth-child(3) {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.site-navigation li:nth-child(4) {
+  padding-right: 71px;
+  text-align: right;
+}
+
+.site-navigation a,
+.feature-item b {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: #d5d5d5;
+}
+
 .main-header-logo {
   position: absolute;
   z-index: 1;
@@ -64,13 +111,9 @@ a {
   height: 72px;
 }
 
-.main-navigation-wrapper {
-  width: 1200px;
-}
-
 .welcome-background {
   position: relative;
-  margin: auto;
+  margin: auto auto 61px auto;
   width: 1200px;
   height: 507px;
   background: #6292b8 url("../img/background-photo.png") no-repeat;
@@ -105,24 +148,9 @@ a {
 
 .sedona-intro {
   text-align: center;
-  border: 1px solid black;
-  margin-top: 62px;
+  margin-top: 61px;
   margin-bottom: 32px;
   border: 1px solid black;
-}
-
-.site-navigation a,
-.feature-item b {
-  color: #000000;
-}
-
-.site-navigation a:hover,
-.site-navigation a:focus {
-  color: #81b3d2;
-}
-
-.site-navigation a:active {
-  color: #d5d5d5;
 }
 
 .visually-hidden { 
@@ -136,10 +164,6 @@ a {
     clip-path: inset(100%); 
     clip: rect(0 0 0 0); 
     overflow: hidden; 
-    }
-
-.advantages {
-
 }
 
 .advantages-head {
