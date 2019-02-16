@@ -163,18 +163,16 @@ a {
 .advantages-head {
   width: 490px;
   margin: 0 auto;
-  margin-bottom: 65px;
+  margin-bottom: 38px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
-
 }
 
 .advantages-head p {
   display: inline-block;
   padding-top: 15px;
   text-align: center;
-
 }
 
 .advantages-list {
@@ -183,12 +181,48 @@ a {
   list-style: none;
 }
 
-.advantages-item-color {
-  background-color: #81b3d2;
-}
-
 .advantages-box {
   display: flex;
+}
+
+.advantages-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 400px;
+}
+
+.advantages-about b {
+  width: 200px;
+  padding-bottom: 23px;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.advantages-about span {
+  padding-bottom: 7px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.advantages-about p {
+  width: 280px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.advantages-item-color {
+  background-color: #81b3d2;
 }
 
 .advantages-box-reverse {
@@ -253,21 +287,6 @@ a {
   flex-direction: row;
   justify-content: stretch;
   list-style: none;
-}
-
-.extra-feature-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  width: 400px;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.extra-feature-item b {
-  font-size: 21px;
-  line-height: 21px;
 }
 
 .feature-first span,
