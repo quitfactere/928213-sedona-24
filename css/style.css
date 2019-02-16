@@ -41,7 +41,7 @@ a {
 
 .main-header {
   width: 100%;
-  min-height: 58px;
+  min-height: 40px;
 }
 
 .main-navigation {
@@ -49,6 +49,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  height: 55px;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
@@ -150,7 +151,6 @@ a {
   text-align: center;
   margin-top: 61px;
   margin-bottom: 32px;
-  border: 1px solid black;
 }
 
 .visually-hidden { 
@@ -167,6 +167,8 @@ a {
 }
 
 .advantages-head {
+  font-size: 21px;
+  line-height: 26px;
   text-align: center;
 }
 
