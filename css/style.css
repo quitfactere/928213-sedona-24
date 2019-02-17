@@ -247,6 +247,7 @@ a {
   align-items: center;
   flex-shrink: 0;
   width: 400px;
+  height: 170px;
   padding-top: 160px;
   text-align: center;
   background-repeat: no-repeat;
@@ -259,7 +260,9 @@ a {
 }
 
 .features-item p {
-width: 300px;
+  width: 300px;
+  padding-top: 10px;
+  line-height: 21px;
 }
 
 .features-item-house {
@@ -274,7 +277,7 @@ width: 300px;
 
 .features-item-gift {
   background-image: url("../img/gift.svg");
-  background-position-y: 60px;
+  background-position-y: 56px;
 }
 
 .feature-item b {
