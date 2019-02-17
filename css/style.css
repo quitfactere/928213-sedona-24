@@ -187,7 +187,7 @@ a {
   display: flex;
 }
 
-.advantages-about {
+.advantages-about-first {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,7 +196,7 @@ a {
   color: #ffffff;
 }
 
-.advantages-about b {
+.advantages-about-first b {
   width: 200px;
   padding-bottom: 23px;
   font-size: 21px;
@@ -204,7 +204,7 @@ a {
   text-align: center;
 }
 
-.advantages-about span {
+.advantages-about-first span {
   padding-bottom: 2px;
   font-size: 14px;
   line-height: 21px;
@@ -212,7 +212,7 @@ a {
   color: #ffffff;
 }
 
-.advantages-about p {
+.advantages-about-first p {
   width: 280px;
   padding-top: 5px;
   font-size: 14px;
@@ -284,6 +284,41 @@ a {
 
 .advantages-box-reverse {
   flex-direction: row-reverse;
+}
+
+.advantages-about-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  color: #ffffff;
+}
+
+.advantages-about-second b {
+  width: 200px;
+  padding-bottom: 25px;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.advantages-about-second span {
+  padding-bottom: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.advantages-about-second p {
+  width: 320px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
 }
 
 .search-hotel {
