@@ -28,7 +28,7 @@ a {
 }
 
 .container {
-  width: 1056px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -163,7 +163,7 @@ a {
 .advantages-head {
   width: 490px;
   margin: 0 auto;
-  margin-bottom: 38px;
+  margin-bottom: 36px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
@@ -203,7 +203,7 @@ a {
 }
 
 .advantages-about span {
-  padding-bottom: 7px;
+  padding-bottom: 2px;
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
@@ -212,7 +212,7 @@ a {
 
 .advantages-about p {
   width: 280px;
-  padding-bottom: 2px;
+  padding-top: 5px;
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
@@ -246,22 +246,35 @@ a {
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
+  width: 400px;
   padding-top: 160px;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center top;
 }
 
+.features-item b {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features-item p {
+width: 300px;
+}
+
 .features-item-house {
   background-image: url("../img/house.svg");
+  background-position-y: 60px;
 }
 
 .features-item-food {
   background-image: url("../img/food.svg");
+  background-position-y: 60px;
 }
 
 .features-item-gift {
   background-image: url("../img/gift.svg");
+  background-position-y: 60px;
 }
 
 .feature-item b {
