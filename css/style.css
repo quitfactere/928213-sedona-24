@@ -58,7 +58,9 @@ a {
 
 .site-navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%; 
   padding: 0;
   list-style: none;
 }
@@ -190,8 +192,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
   width: 400px;
+  color: #ffffff;
 }
 
 .advantages-about b {
@@ -218,15 +220,10 @@ a {
   font-weight: normal;
   color: #ffffff;
   text-align: center;
-
 }
 
 .advantages-item-color {
   background-color: #81b3d2;
-}
-
-.advantages-box-reverse {
-  flex-direction: row-reverse;
 }
 
 .advantages-box img {
@@ -285,39 +282,8 @@ a {
   line-height: 21px;
 }
 
-.feature-second {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
- 
-  width: 1200px;
-  font-size: 21px;
-  line-height: 21px;
-  color: #ffffff;
-
-  background-color: #81b3d2;
-}
-
-.features-list-second {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  list-style: none;
-}
-
-.feature-first span,
-.feature-second span,
-.feature-first p,
-.feature-second p {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
-}
-
-.feature-first b,
-.feature-second b {
-  font-size: 21px;
-  line-height: 21px;
+.advantages-box-reverse {
+  flex-direction: row-reverse;
 }
 
 .search-hotel {
