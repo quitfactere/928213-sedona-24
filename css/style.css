@@ -251,7 +251,20 @@ a {
   background-position: center top;
 }
 
-.features-item b {
+.features-item-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 400px;
+  height: 170px;
+  padding-top: 44px;
+  text-align: center;
+}
+
+.features-item b,
+.features-item-second b {
+  width: 100px;
   font-size: 21px;
   line-height: 21px;
 }
@@ -275,11 +288,6 @@ a {
 .features-item-gift {
   background-image: url("../img/gift.svg");
   background-position-y: 56px;
-}
-
-.feature-item b {
-  font-size: 21px;
-  line-height: 21px;
 }
 
 .advantages-box-reverse {
@@ -319,6 +327,22 @@ a {
   font-weight: normal;
   color: #ffffff;
   text-align: center;
+}
+
+.features-item-second span {
+  padding-top: 25px;
+}
+
+.features-item-second p {
+  width: 264px;
+  padding-top: 7px;
+  line-height: 21px;
+}
+
+.features-item-second:nth-child(3) p {
+  width: 250px;
+  padding-top: 7px;
+  line-height: 21px;
 }
 
 .search-hotel {
