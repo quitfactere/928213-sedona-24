@@ -58,6 +58,10 @@ a {
   box-sizing: border-box;
 }
 
+.site-navigation a {
+  font-weight: 700;
+}
+
 .site-navigation li.active a {
   color: red ;
 }
@@ -233,7 +237,7 @@ a {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  min-height: 257px;
+  min-height: 260px;
   list-style: none;
 }
 
@@ -247,7 +251,7 @@ a {
   align-items: center;
   flex-shrink: 0;
   width: 400px;
-  height: 170px;
+  height: 171px;
   padding-top: 160px;
   text-align: center;
   background-repeat: no-repeat;
@@ -261,13 +265,13 @@ a {
   flex-shrink: 0;
   width: 400px;
   min-height: 170px;
-  padding-top: 44px;
+  padding-top: 45px;
   text-align: center;
 }
 
 .features-item b,
 .features-item-second b {
-  width: 100px;
+  width: 120px;
   font-size: 21px;
   line-height: 21px;
 }
@@ -466,6 +470,14 @@ a {
   background-color: transparent;
 }
 
+.button-calendar:hover {
+  fill: #505050;
+}
+
+.button-calendar:active {
+  fill: #86b6d4;
+}
+
 .search-item-column:nth-child(1) {
   position: relative;
   display: flex;
@@ -499,33 +511,33 @@ a {
   display: block;
   box-sizing: border-box;
   flex-shrink: 0;
-  width: 114px;
-  padding-left: 50px;
+  width: 42px;
+  padding: 10px;
+  text-align: center;
 }
 
 .search-item-buttons {
-  position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.search-item .button-minus {
-  position: absolute;
+.button-minus,
+.button-plus {
   width: 36px;
-  height: 100%;
-  left: 0px;
+  height: 38px;
+  fill: #a9a9a9;
   background-color: #f2f2f2;
   border: none;
 }
 
-.search-item .button-plus {
-  position: absolute;
-  width: 36px;
-  height: 100%;
-  top: 0px;
-  right: 0px;
-  background-color: #f2f2f2;
-  border: none;
+.button-minus:hover,
+.button-plus:hover {
+  fill: #505050;
+}
+
+.button-minus:active,
+.button-plus:active  {
+  fill: #86b6d4;
 }
 
 .search-item input:hover {
@@ -549,6 +561,7 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #81b3d2;
+  border: none;
 }
 
 .search-btn:hover {
@@ -587,7 +600,7 @@ a {
 .hash-tag {
   display: block;
   margin-left: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .footer-content b {
@@ -599,8 +612,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 150px;
-  padding-left: 65px;
-  margin-bottom: 12px;
+  padding-left: 30px;
+  margin-bottom: 14px;
   list-style: none;
 }
 
@@ -633,14 +646,13 @@ a {
 .footer-copyright {
   display: flex;
   align-items: center;
-  margin-right: 35px;
+  margin-right: 28px;
+  margin-bottom: 11px;
 }
 
 .footer-copyright b {
   display: block;
   box-sizing: border-box;
-  margin-bottom: 5px;
-  padding-left: 20px;
   font-size: 14px;
   line-height: 26px;
 }
@@ -648,7 +660,7 @@ a {
 .footer-copyright svg {
   display: block;
   box-sizing: border-box;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .copyright-button:hover path {
@@ -865,6 +877,16 @@ a {
   background: url(../img/stars.png) repeat-x;
 }
 
-.stars-5 {
-  width: 90px;
+.stars-4 {
+  width: 100px;
+}
+
+.stars-3 {
+  margin-left: 13px;
+  width: 70px;
+}
+
+.stars-2 {
+  margin-left: 30px;
+  width: 50px;
 }
