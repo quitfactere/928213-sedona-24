@@ -693,7 +693,13 @@ a {
 
 .filter-form {
   display: flex;
+  justify-content: space-around;
   flex-grow: 1;
+  height: 217px;
+}
+
+.filter-field:nth-of-type(3) {
+  margin-left: 200px;
 }
 
 .filter-list {
