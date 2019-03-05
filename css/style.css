@@ -476,6 +476,7 @@ a {
 
 .button-calendar:active {
   fill: #86b6d4;
+  outline: 0;
 }
 
 .search-item-column:nth-child(1) {
@@ -681,11 +682,192 @@ a {
   line-height: 26px;
 }
 
-.filter-btn {
-  font-size: 14px;
-  line-height: 21px;
+.filter {
+  display: flex;
+  min-height: 217px;
+  background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-color: #487da7;
+  background-size: cover;
+}
+
+.filter-form {
+  display: flex;
+  flex-grow: 1;
+}
+
+.filter-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filter-list label {
+  position: relative;
+  padding-left: 42px;
+}
+
+.filter-list label:before {
+  content: "";
+  position: absolute;
+  left: 0; 
+  top: 0;
+  display: block;
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../img/checkbox-off.svg");
+}
+
+.filter-list input[type="checkbox"]:focus + label {
+  outline: 1px solid #457aa4;
+}
+
+.filter-list input[type="checkbox"]:checked + label:before {
+  width: 26px;
+  background-image: url("../img/checkbox-on.svg");
+}
+
+.filter-list input[type="checkbox"]:checked:disabled + label:before {
+  width: 26px;
+  background-image: url("../img/checkbox-on-disabled.svg");
+}
+
+.filter-list input[type="checkbox"]:disabled + label:before {
+  background-image: url("../img/checkbox-disabled.svg");
+}
+
+.filter-range {
+  width: 330px;
+  margin: 50px auto; 
+
   color: #ffffff;
-  background-color:  rgba(15, 15, 15, 0.9);
+  text-transform: uppercase;
+}
+
+.filter-range-title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.price-controls {
+  
+  position: relative;
+  height: 36px;
+  margin-bottom: 20px;
+  
+  font-size: 0;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.btn-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  color: #000000;
+
+  background: #ffffff;
 }
 
 .sorting {
@@ -754,11 +936,13 @@ a {
 .result-item {
   display: flex;
   box-sizing: border-box;
-  padding: 31px 0;
+  padding-top: 31px;
+  height: 150px;
 }
 
 .searching-hotel {
   display: block;
+  margin-bottom: 10px;
   color: #000000;
 }
 
@@ -805,6 +989,7 @@ a {
 }
 
 .more-info span {
+  display: block;
   margin-bottom: 17px;
 }
 
