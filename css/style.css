@@ -698,6 +698,11 @@ a {
   height: 217px;
 }
 
+.fieldset {
+  padding: 0;
+  border: none;
+}
+
 .filter-field:nth-of-type(3) {
   margin-left: 200px;
 }
@@ -883,6 +888,8 @@ a {
 
 .sorting-items {
   list-style: none;
+  margin: 0;
+  padding: 0;
   font-size: 12px;
   line-height: 18px;
 }
@@ -947,9 +954,12 @@ a {
 }
 
 .searching-hotel {
-  display: block;
   margin-bottom: 10px;
   color: #000000;
+}
+
+.flex-container {
+  display: flex;
 }
 
 .searching-hotel:hover {
@@ -962,11 +972,8 @@ a {
 
 .result-item-container {
   display: flex;
+  align-items: center;
   width: 1056px;
-}
-
-.result-item img {
-  flex-shrink: 0;
 }
 
 .result-item-info {
@@ -974,15 +981,16 @@ a {
   width: 550px;
 }
 
-.result-item-info b {
-  font-size: 21px;
-  line-height: 26px;
+.result-item img {
+  flex-shrink: 0;
 }
 
-.result-item-info span {
-  font-size: 14px;
-  line-height: 21px;
-  color: #333333;
+h3 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .result-buttons {
@@ -992,11 +1000,12 @@ a {
 .more-info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .more-info span {
   display: block;
-  margin-bottom: 17px;
+  margin-top: 10px;
 }
 
 .more-info a {
@@ -1005,6 +1014,7 @@ a {
   width: 110px;
   height: 27px;
   margin-right: 7px;
+  margin-top: 10px;
   padding: 5px 17px;
   color: #ffffff;
   background-color: #81b3d2;
@@ -1025,8 +1035,8 @@ a {
 }
 
 .booking span {
-  margin-bottom: 17px;
   line-height: 21px;
+  margin-top: 10px;
 }
 
 .booking a {
@@ -1034,6 +1044,7 @@ a {
   box-sizing: border-box;
   width: 142px;
   height: 27px;
+  margin-top: 10px;
   padding: 5px 17px;
 }
 
