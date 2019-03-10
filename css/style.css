@@ -198,6 +198,7 @@ a {
   align-items: center;
   justify-content: center;
   width: 400px;
+  padding-top: 3px;
   color: #ffffff;
 }
 
@@ -237,7 +238,7 @@ a {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  min-height: 260px;
+  min-height: 256px;
   list-style: none;
 }
 
@@ -370,7 +371,7 @@ a {
   box-sizing: border-box;
   width: 570px;
   max-height: 86px;
-  margin-top: 32px;
+  margin-top: 34px;
   padding: 30px 140px;
   font-size: 21px;
   line-height: 26px;
@@ -988,6 +989,10 @@ fieldset {
   fill: #81b3d2;
 }
 
+.results {
+  margin-bottom: 5px;
+}
+
 .result-item {
   display: flex;
   box-sizing: border-box;
@@ -1016,13 +1021,13 @@ fieldset {
   align-items: center;
   width: 1200px;
   margin: 0 auto;
-  padding-top: 9px;
+  padding-top: 4px;
   padding-left: 73px;
   padding-right: 73px;
   border-top: 1px solid #e5e5e5;
 }
 
-.result-item-container:nth-child(3) {
+.result-item-container:nth-of-type(3n) {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1036,7 +1041,7 @@ fieldset {
 }
 
 .result-item-info h3 {
-  margin-top: -10px;
+  margin-top: -4px;
   margin-bottom: 0px;
   padding: 0;
   font-weight: 700;
@@ -1065,8 +1070,8 @@ fieldset {
   width: 110px;
   height: 27px;
   margin-right: 7px;
-  margin-top: 14px;
-  padding: 5px 17px;
+  margin-top: 13px;
+  padding: 3px 17px;
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -1095,8 +1100,8 @@ fieldset {
   box-sizing: border-box;
   width: 142px;
   height: 27px;
-  margin-top: 14px;
-  padding: 5px 17px;
+  margin-top: 13px;
+  padding: 3px 17px;
 }
 
 .booking a {
@@ -1116,6 +1121,7 @@ fieldset {
 .stars-and-rating {
   display: flex;
   flex-direction: column;
+  margin-bottom: 9px;
   margin-left: auto;
   padding-top: 20px;
 }
@@ -1124,23 +1130,23 @@ fieldset {
   display: block;
   width: 18px;
   height: 17px;
-  margin-bottom: 35px;
+  margin-bottom: 37px;
   background: url(../img/stars.png) repeat-x;
 }
 
 .stars-4 {
-  width: 100px;
+  width: 95px;
   margin-left: auto;
 }
 
 .stars-3 {
   margin-left: auto;
-  width: 70px;
+  width: 71px;
 }
 
 .stars-2 {
   margin-left: auto;
-  width: 50px;
+  width: 47px;
 
 }
 
