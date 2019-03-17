@@ -164,6 +164,10 @@ a {
   text-align: center;
 }
 
+.advantages-head p {
+font-weight: normal;
+}
+
 .visually-hidden { 
     position: absolute; 
     width: 1px; 
@@ -264,11 +268,6 @@ a {
   margin: 0 auto;
 }
 
-.container-mini {
-  width: 1056px;
-  margin: 0 auto;
-}
-
 .features-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,6 +305,10 @@ a {
   background-position: center top;
 }
 
+.features-item p {
+  font-weight: normal;
+}
+
 .features-item-second {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,6 +326,10 @@ a {
   min-height: 170px;
   padding-top: 45px;
   text-align: center;
+}
+
+.features-item-second p {
+  font-weight: normal;
 }
 
 .features-item b,
@@ -425,7 +432,7 @@ a {
 
 .search-hotel {
   width: 1200px;
-  margin-top: 53px;
+  margin-top: 50px;
   text-align: center;
   color: #000000;
 }
@@ -435,6 +442,7 @@ a {
   margin-top: 27px;
   line-height: 24px;
   color: #5d5d5d;
+  font-weight: normal;
 }
 
 .button-call-form {
@@ -668,7 +676,7 @@ a {
 }
 
 .search-sub {
-  margin-top: 54px;
+  margin-top: 56px;
 }
 
 .search-btn {
@@ -729,6 +737,10 @@ a {
   margin-bottom: 24px;
 }
 
+.inner-page .hash-tag {
+  margin-bottom: 27px;
+}
+
 .footer-content b {
   font-size: 21px;
   line-height: 26px;
@@ -742,8 +754,12 @@ a {
       flex-wrap: wrap;
   width: 150px;
   padding-left: 30px;
-  margin-bottom: 14px;
+  margin-bottom: 15px;
   list-style: none;
+}
+
+.inner-page .social-buttons {
+  margin-bottom: 20px;
 }
 
 .social-buttons li:not(:last-child) {
@@ -789,6 +805,10 @@ a {
   margin-bottom: 11px;
 }
 
+.inner-page .footer-copyright {
+  margin-bottom: 15px;
+}
+
 .footer-copyright b {
   display: block;
   -webkit-box-sizing: border-box;
@@ -796,6 +816,7 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: #686967;
+  font-weight: normal;
 }
 
 .footer-copyright svg {
@@ -842,6 +863,10 @@ a {
   margin-top: 30px;
 }
 
+.filter-form .container {
+  display: flex;
+}
+
 .filter fieldset {
   margin: 0;
   padding: 0;
@@ -855,12 +880,19 @@ a {
   display: inline-block;
 }
 
+.filter-field:nth-of-type(1) {
+  margin-top: -2px;
+  margin-left: 71px;
+}
+
 .filter-field:nth-of-type(2) {
-  margin-left: 115px;
+  margin-top: -2px;
+  margin-left: 120px;
 }
 
 .filter-field:nth-of-type(3) {
   margin-left: auto;
+  margin-right: 70px;
   vertical-align: top;
 }
 
@@ -874,6 +906,7 @@ a {
   margin-top: 3px;
   padding: 0;
   list-style: none;
+  font-weight: normal;
 }
 
 .filter-list li:not(:nth-child(3)) {
@@ -883,7 +916,9 @@ a {
 .filter-list label {
   position: relative;
   padding-left: 42px;
-  color: #d1d0d1;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
 }
 
 .filter-list label:before {
@@ -923,6 +958,7 @@ a {
 }
 
 .filter-range-title {
+  margin-top: -2px;
   margin-bottom: 9px;
   font-weight: 600;
   font-size: 16px;
@@ -965,6 +1001,7 @@ a {
 .price-controls .max-price {
   width: 90px;
   padding-left: 62px;
+  font-weight: normal;
 }
 
 .price-controls input {
@@ -1060,8 +1097,9 @@ a {
   -webkit-box-pack: stretch; 
       -ms-flex-pack: stretch; 
           justify-content: stretch;
-  width: 1056px;
   margin: 0 auto;
+  padding-left: 71px;
+  font-weight: normal;
 }
 
 .found {
@@ -1206,7 +1244,11 @@ a {
   border-top: 1px solid #e5e5e5;
 }
 
-.result-item-container:nth-of-type(3n) {
+.result-item {
+  height: 151px;
+}
+
+.result-item:last-child {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1221,7 +1263,7 @@ a {
 }
 
 .result-item-info h3 {
-  margin-top: -4px;
+  margin-top: -5px;
   margin-bottom: 0px;
   padding: 0;
   font-weight: 700;
@@ -1250,9 +1292,10 @@ a {
 
 .more-info span {
   display: block;
-  margin-top: 11px;
+  margin-top: 9px;
   line-height: 21px;  
   font-size: 14px;
+  font-weight: normal;
   color: #7d7d7d;
 }
 
@@ -1263,7 +1306,7 @@ a {
   width: 110px;
   height: 27px;
   margin-right: 7px;
-  margin-top: 11px;
+  margin-top: 15px;
   padding: 3px 17px;
   color: #ffffff;
   background-color: #81b3d2;
@@ -1291,8 +1334,9 @@ a {
 .booking span {
   font-size: 14px;
   line-height: 21px;
-  margin-top: 11px;
+  margin-top: 9px;
   color: #7d7d7d;
+  font-weight: normal;
 }
 
 .booking a {
@@ -1301,11 +1345,9 @@ a {
           box-sizing: border-box;
   width: 142px;
   height: 27px;
-  margin-top: 12px;
+  margin-top: 15px;
   padding: 3px 17px;
-}
-
-.booking a {
+  
   color: #ffffff;
   background-color: #766357;
 }
@@ -1358,13 +1400,14 @@ a {
 
 .rating p {
   display: block;
-  width: 113px;
+  width: 110px;
   height: 27px;
   margin-top: 10px;
   padding-top: 3px;
   background-color: #f2f2f2;
   font-size: 14px;
   line-height: 21px;
+  font-weight: normal;
   color: #b9b9b9;
   text-align: center;
   vertical-align: middle;
