@@ -406,7 +406,7 @@ font-weight: normal;
 
 .advantages-about-second p {
   width: 320px;
-  padding-bottom: 4px;
+  padding-bottom: 7px;
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
@@ -729,16 +729,17 @@ font-weight: normal;
           justify-content: space-between;
   margin: 0 auto; 
   width: 1056px;
+  height: 100%;
 }
 
 .hash-tag {
   display: block;
   margin-left: 60px;
-  margin-bottom: 24px;
+  padding-top: 20px;
 }
 
 .inner-page .hash-tag {
-  margin-bottom: 27px;
+  padding-top: 15px;
 }
 
 .footer-content b {
@@ -753,18 +754,17 @@ font-weight: normal;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 150px;
+  padding-top: 21px;
   padding-left: 30px;
-  margin-bottom: 15px;
   list-style: none;
 }
 
 .inner-page .social-buttons {
-  margin-bottom: 20px;
+  padding-top: 18px;
 }
 
 .social-buttons li:not(:last-child) {
   padding-right: 6px;
-  padding-bottom: 6px;
 }
 
 .social-item {
@@ -802,11 +802,11 @@ font-weight: normal;
       -ms-flex-align: center;
           align-items: center;
   margin-right: 28px;
-  margin-bottom: 11px;
+  padding-top: 20px;
 }
 
 .inner-page .footer-copyright {
-  margin-bottom: 15px;
+  padding-top: 15px;
 }
 
 .footer-copyright b {
